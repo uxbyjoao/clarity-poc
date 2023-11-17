@@ -6,6 +6,7 @@ This is a proof-of-concept for integrating design tokens using [Style Dictionary
 
 ## Structure
 
+```
 .
 ├── src/
 │ ├── components/
@@ -18,6 +19,7 @@ This is a proof-of-concept for integrating design tokens using [Style Dictionary
 │ ├── \_components.json
 │ └── \_radius.json
 └── sd.config.json
+```
 
 - `tokens.css`: This is the output from Style Dictionary's transform process. **This file should never be edited manually**. This file contains design tokens as CSS Variables and is consumed at a global level in the `main.tsx` file.
 - `typography.css`: This is a simple import to inject the Inter font on the application. It's imported by the `main.tsx` file.
