@@ -1,0 +1,16 @@
+{
+  "radius": {
+    "compact": {
+      "value": "{base.radius.1}",
+      "category": "size"
+    },
+    "medium": {
+      "value": "{base.radius.2}",
+      "category": "size"
+    },
+    "large": {
+      "value": "{base.radius.4}",
+      "category": "size"
+    }
+  }
+}

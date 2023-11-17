@@ -1,0 +1,42 @@
+{
+  "color": {
+    "neutral": {
+      "regular": {
+        "value": "{base.color.neutral.black}",
+        "category": "color"
+      },
+      "inverted": {
+        "value": "{base.color.neutral.white}",
+        "category": "color"
+      }
+    },
+    "interactive": {
+      "light": {
+        "value": "{base.color.neutral.800}",
+        "category": "color"
+      },
+      "medium": {
+        "value": "{base.color.neutral.900}",
+        "category": "color"
+      },
+      "dark": {
+        "value": "{base.color.neutral.950}",
+        "category": "color"
+      }
+    },
+    "primary": {
+      "light": {
+        "value": "{base.color.violet.600}",
+        "category": "color"
+      },
+      "medium": {
+        "value": "{base.color.violet.700}",
+        "category": "color"
+      },
+      "dark": {
+        "value": "{base.color.violet.800}",
+        "category": "color"
+      }
+    }
+  }
+}
