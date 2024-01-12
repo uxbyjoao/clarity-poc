@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import { Button as DefaultButton } from "@mui/material";
 
 import { Button } from "./components/Button";
+import BasicMenu from "./components/BasicMenu";
 
 export default function App() {
   return (
@@ -18,6 +19,12 @@ export default function App() {
         <div style={{ marginTop: "2rem" }}>
           <Button variant="contained">Clarity button</Button>
         </div>
+      </Box>
+      <Box sx={{ my: 4, textAlign: "center" }}>
+        <Typography variant="h4" component="h1">
+          Menu component
+        </Typography>
+        <BasicMenu />
       </Box>
     </Container>
   );

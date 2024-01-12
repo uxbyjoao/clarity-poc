@@ -1,26 +1,13 @@
 {
-  "source": [
-    "src/tokens/_base.json",
-    "src/tokens/_color.json",
-    "src/tokens/_radius.json",
-    "src/tokens/_components.json"
-  ],
+  "source": ["src/tokens/**/*.json"],
   "platforms": {
     "web": {
-      "prefix": "clarity",
       "buildPath": "src/",
-      "transforms": [
-        "attribute/cti",
-        "name/cti/kebab",
-        "time/seconds",
-        "content/icon",
-        "size/pxToRem",
-        "color/css"
-      ],
+      "transformGroup": "js",
       "files": [
         {
-          "destination": "tokens.css",
-          "format": "css/variables"
+          "destination": "tokens.json",
+          "format": "json/nested"
         }
       ]
     }
